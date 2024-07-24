@@ -10,6 +10,24 @@
   "unused": true,
   "boss": true,
   "eqnull": true,
-  "node": true,
-  "quotmark": "double"
+  "browser": true,
+  "quotmark": "double",
+  "predef": [
+    "jQuery",
+    "QUnit",
+    "module",
+    "test",
+    "asyncTest",
+    "expect",
+    "start",
+    "stop",
+    "ok",
+    "equal",
+    "notEqual",
+    "deepEqual",
+    "notDeepEqual",
+    "strictEqual",
+    "notStrictEqual",
+    "raises"
+  ]
 }
